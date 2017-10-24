@@ -1,0 +1,26 @@
+{
+  "name": "graphql_fun",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AtlasCoughed/GraphQL_Fun.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AtlasCoughed/GraphQL_Fun/issues"
+  },
+  "homepage": "https://github.com/AtlasCoughed/GraphQL_Fun#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "express-graphql": "^0.6.11",
+    "graphql": "^0.11.7",
+    "lodash": "^4.17.4",
+    "save": "^2.3.1"
+  }
+}
