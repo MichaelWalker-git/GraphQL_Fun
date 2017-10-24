@@ -1,8 +1,7 @@
-import {GraphQLInt, GraphQLString} from "graphql";
-
+const _ = require('lodash');
 const graphql = require('graphql');
 const {
-	GraphQLObjectType
+	GraphQLObjectType, GraphQLInt, GraphQLString, GraphQLSchema
 } = graphql;
 
 const UserType = new GraphQLObjectType({
@@ -32,3 +31,8 @@ const RootQuery = new GraphQLObjectType({
 		}
 	}
 });
+
+module.exports = new GraphQLSchema({
+	query: RootQuery
+});
+
